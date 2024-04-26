@@ -40,4 +40,4 @@ cannot revive players but they can treat them and sell treatment.
 Players can use bought items. It will affect inner core turning on health regeneration. After period of time inner core will be reset and health regeneration *fully* stops.
 VORP-Core *must be* of version 1.4 or higher as health regeneration and inner core were reworked in version 1.4.
 
-Do **not** try to use VORP-Medicine and VORP-Metabolism. VORP-Metabolism affects inner core values. Once VORP-Status is released an update for it will be provided.
+Do **not** try to use VORP-Medicine and VORP-Metabolism. VORP-Metabolism affects inner core values
