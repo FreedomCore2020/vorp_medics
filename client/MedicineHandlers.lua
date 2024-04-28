@@ -312,7 +312,7 @@ function StudyHerbalism()
     else
         if not recipiesSent then
             for k, v in pairs(Config.Recepies) do
-                TriggerEvent("vorp:AddRecipes", v)
+                TriggerClientEvent("vorp:AddRecipes", v)
             end
             recipiesSent = true;
         end
