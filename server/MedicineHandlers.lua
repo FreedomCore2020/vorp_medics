@@ -55,7 +55,11 @@ VorpInv.RegisterUsableItem("herbal_tonic", function(data) -- https://reddead.fan
 end)
 
 function IsPlayerMedic(_source)
-    local Character = VORPcore.getUser(_source).getUsedCharacter
+    local Character = VORPcore.getUser(_source)
+    if Character then
+      return 
+    end
+    Character = Character.getUsedCharacter  
     if tostring(Character.job) == "doctor" then
         return true
     end
