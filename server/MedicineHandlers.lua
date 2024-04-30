@@ -56,7 +56,7 @@ end)
 
 function IsPlayerMedic(_source)
     local Character = VORPcore.getUser(_source)
-    if Character then
+    if not Character then
       return 
     end
     Character = Character.getUsedCharacter  
